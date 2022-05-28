@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-plus-demo" />
+        <module name="springboot-kafka" />
+        <module name="springboot-swagger" />
+        <module name="springboot-redis" />
+        <module name="bootk8s-demo" />
+        <module name="excel-test" />
+        <module name="blog-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog-demo" target="1.8" />
+      <module name="bootk8s-demo" target="1.8" />
+      <module name="excel-test" target="1.8" />
+      <module name="mybatis-plus-demo" target="1.8" />
+      <module name="springboot-kafka" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
+      <module name="springboot-swagger" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="blog-demo" options="-parameters" />
+      <module name="bootk8s-demo" options="-parameters" />
+      <module name="excel-test" options="-parameters" />
+      <module name="mybatis-plus-demo" options="-parameters" />
+      <module name="springboot-kafka" options="-parameters" />
+      <module name="springboot-redis" options="-parameters" />
+      <module name="springboot-swagger" options="-parameters" />
+    </option>
+  </component>
+</project>
