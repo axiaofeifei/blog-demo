@@ -2,9 +2,9 @@ package hhf.mybatisplusdemo.serivceImpl;
 
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import hhf.mybatisplusdemo.entity.Student;
 import hhf.mybatisplusdemo.mapper.StudentsMapper;
 import hhf.mybatisplusdemo.service.StudentsService;
@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.io.Serializable;
-import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 import java.util.function.Function;
@@ -23,28 +22,9 @@ import java.util.function.Function;
  * @date 2022/5/20 14:05
  */
 @Service
-public class StudentsServiceImpl implements StudentsService {
+public class StudentsServiceImpl extends ServiceImpl<StudentsMapper,Student> implements StudentsService {
     @Resource
     private StudentsMapper studentsMapper;
-    @Override
-    public boolean saveBatch(Collection<Student> entityList, int batchSize) {
-        return false;
-    }
-
-    @Override
-    public boolean saveOrUpdateBatch(Collection<Student> entityList, int batchSize) {
-        return false;
-    }
-
-    @Override
-    public boolean updateBatchById(Collection<Student> entityList, int batchSize) {
-        return false;
-    }
-
-    @Override
-    public boolean saveOrUpdate(Student entity) {
-        return false;
-    }
 
     @Override
     public Student getById(Serializable id) {
@@ -136,10 +116,7 @@ public class StudentsServiceImpl implements StudentsService {
         return studentList;
     }
 
-    @Override
-    public BaseMapper<Student> getBaseMapper() {
-        return null;
-    }
+
 
     @Override
     public Class<Student> getEntityClass() {

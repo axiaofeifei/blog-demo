@@ -5,11 +5,11 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import hhf.mybatisplusdemo.entity.Student;
 import hhf.mybatisplusdemo.service.StudentsService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import javax.websocket.server.PathParam;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ import java.util.Map;
 @RequestMapping("/stu")
 @RestController
 public class StudentsController {
-    @Autowired
+    @Resource
     private StudentsService studentsService;
 
     @GetMapping("/hello")
@@ -122,7 +122,7 @@ public class StudentsController {
     }
 
     /**
-     * 按照性别查询所有符合要求的所有用户
+     * 按照年龄查询所有符合要求的所有用户
      * @return
      */
     @GetMapping("/listStudentListByAge")
