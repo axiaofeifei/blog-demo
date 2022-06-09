@@ -1,0 +1,31 @@
+
+spring:
+  thymeleaf:
+    check-template: false
+    check-template-location: false
+    suffix: .html
+  datasource:
+    username : root
+    password: mysql
+    url: jdbc:mysql://localhost:3306/blog-demo?&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+server:
+  port: 8082
+
+mybatis-plus:
+  type-aliases-package: hhf.springbootshiro.entity
+  mapper-locations: classpath*:/hhf/springbootshiro/mapper/*.xml
+
+logging:
+  file:
+    name: log/springbootshiro.log
+  level:
+    root: info
+    hhf:
+      springbootshiro : debug
+
+
+
+
