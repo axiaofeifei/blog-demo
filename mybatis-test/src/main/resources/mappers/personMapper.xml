@@ -48,7 +48,7 @@
                 </if>
         </select>
 -->
-<!--    <where>标签会帮助我们处理多余的and和or标签-->
+<!--    <where>标签会帮助我们处理多余的and和or标签，因此更安全-->
     <select id="selectPerson" resultType="com.test.mybatistest.entity.Person">
         SELECT user_id as userId,user_name as userName,age,salary,gender
         FROM person
