@@ -3,6 +3,7 @@
 
 <mapper namespace="com.test.mybatistest.mapper.PersonMapper">
 
+<!--    <where>和<if>标签-->
         <select id="selectById" resultType="com.test.mybatistest.entity.Person">
                 SELECT user_id as userId,user_name as userName,age,salary,gender
                 FROM person
