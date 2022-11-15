@@ -17,12 +17,58 @@
                 FROM person
         </select>
 <!--    实现分页-->
-    <select id="selectPersonPage" resultType="com.test.mybatistest.entity.Person">
+        <select id="selectPersonPage" resultType="com.test.mybatistest.entity.Person">
             SELECT user_id as userId,user_name as userName,age,salary,gender
             FROM person
             <if test="limit != null and limit != '' and offset != null and offset != ''" >
                             limit #{limit} offset #{offset}
             </if>
+
+        </select>
+        <!--        传入实体类查询  where 1 = 1 的形式-->
+        <!--
+        <select id="selectPerson" resultType="com.test.mybatistest.entity.Person">
+                SELECT user_id as userId,user_name as userName,age,salary,gender
+                FROM person
+                where 1=1
+                <if test="user_id != null and user_id != ''">
+                        and user_id = #{userId}
+                </if>
+                <if test="userName != null and userName != ''">
+                        and user_name = #{userName}
+                </if>
+                <if test="age != null and age != ''">
+                        and age = #{age}
+                </if>
+                <if test="salary != null and salary != ''">
+                        and salary = #{salary}
+                </if>
+                <if test="gender != null and gender != ''">
+                        and gender =#{gender}
+                </if>
+        </select>
+-->
+<!--    <where>标签会帮助我们处理多余的and和or标签-->
+    <select id="selectPerson" resultType="com.test.mybatistest.entity.Person">
+        SELECT user_id as userId,user_name as userName,age,salary,gender
+        FROM person
+        <where>
+            <if test="userId != null and userId != ''">
+                and user_id = #{userId}
+            </if>
+            <if test="userName != null and userName != ''">
+                and user_name = #{userName}
+            </if>
+            <if test="age != null and age != ''">
+                and age = #{age}
+            </if>
+            <if test="salary != null and salary != ''">
+                and salary = #{salary}
+            </if>
+            <if test="gender != null and gender != ''">
+                and gender =#{gender}
+            </if>
+        </where>
 
     </select>
 

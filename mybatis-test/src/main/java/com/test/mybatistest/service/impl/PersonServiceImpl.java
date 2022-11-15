@@ -36,4 +36,10 @@ public class PersonServiceImpl implements PersonService {
 
        return personMapper.selectPersonPage(limit,offset);
     }
+
+    @Override
+    public Person queryPerson(Person person) {
+        Person resultPerson = personMapper.selectPerson(person);
+        return resultPerson;
+    }
 }

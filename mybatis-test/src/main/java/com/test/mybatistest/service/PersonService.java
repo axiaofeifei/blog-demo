@@ -17,4 +17,6 @@ public interface PersonService {
 
 
     List<Person> queryPersonPage(int limit,int offset);
+
+    Person queryPerson(Person person);
 }

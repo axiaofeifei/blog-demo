@@ -9,7 +9,7 @@ package com.test.mybatistest.mapper;
 import com.test.mybatistest.entity.Person;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+
 
 import java.util.List;
 
@@ -19,5 +19,8 @@ public interface PersonMapper {
 
     List<Person> selectAll();
 
+    //分页查询
     List<Person> selectPersonPage(@Param("limit") int limit,@Param("offset") int offset);
+
+    Person selectPerson(Person person);
 }
