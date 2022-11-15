@@ -13,6 +13,7 @@
                         </if>
                 </where>
         </select>
+<!--    一个简单的查询语句-->
         <select id="selectAll" resultType="com.test.mybatistest.entity.Person">
                 SELECT user_id as userId,user_name as userName,age,salary,gender
                 FROM person
