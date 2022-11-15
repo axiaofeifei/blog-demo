@@ -1,0 +1,578 @@
+2022-06-02 09:51:51.362  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Starting MybatisPlusDemoApplication using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 60560 (E:\codes\hhf\unit-demo\target\classes started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:51:51.363 DEBUG 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:51:51.363  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:51:51.582  INFO 60560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-02 09:51:51.582  INFO 60560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-02 09:51:51.582  INFO 60560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-02 09:51:51.607  INFO 60560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-02 09:51:51.607  INFO 60560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 240 ms
+2022-06-02 09:51:52.055  INFO 60560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-02 09:51:52.063  INFO 60560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-02 09:51:52.066  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Started MybatisPlusDemoApplication in 0.747 seconds (JVM running for 2034.277)
+2022-06-02 09:51:52.068  INFO 60560 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-02 09:51:53.421  INFO 22932 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 22932 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:51:53.422 DEBUG 22932 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:51:53.422  INFO 22932 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:51:55.494  INFO 22932 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 2.332 seconds (JVM running for 3.285)
+2022-06-02 09:53:13.497  INFO 57736 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 57736 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:53:13.499 DEBUG 57736 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:53:13.501  INFO 57736 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:53:15.576  INFO 57736 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 2.425 seconds (JVM running for 3.303)
+2022-06-02 09:54:30.812  INFO 64584 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 64584 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:54:30.813 DEBUG 64584 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:54:30.814  INFO 64584 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:54:33.906  INFO 64584 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 3.611 seconds (JVM running for 4.622)
+2022-06-02 09:59:19.210  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Starting MybatisPlusDemoApplication using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 60560 (E:\codes\hhf\unit-demo\target\classes started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:59:19.210 DEBUG 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:59:19.210  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:59:19.374  INFO 60560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-02 09:59:19.374  INFO 60560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-02 09:59:19.374  INFO 60560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-02 09:59:19.396  INFO 60560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-02 09:59:19.396  INFO 60560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 185 ms
+2022-06-02 09:59:19.837  INFO 60560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-02 09:59:19.843  INFO 60560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-02 09:59:19.846  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Started MybatisPlusDemoApplication in 0.655 seconds (JVM running for 2482.058)
+2022-06-02 09:59:19.847  INFO 60560 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-02 09:59:21.271  INFO 62588 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 62588 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:59:21.273 DEBUG 62588 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:59:21.273  INFO 62588 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:59:21.838  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Starting MybatisPlusDemoApplication using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 60560 (E:\codes\hhf\unit-demo\target\classes started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 09:59:21.838 DEBUG 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 09:59:21.838  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 09:59:21.985  INFO 60560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-06-02 09:59:21.986  INFO 60560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-02 09:59:21.986  INFO 60560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-06-02 09:59:22.016  INFO 60560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-02 09:59:22.016  INFO 60560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 176 ms
+2022-06-02 09:59:22.452  INFO 60560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-02 09:59:22.459  INFO 60560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-06-02 09:59:22.462  INFO 60560 --- [restartedMain] h.m.MybatisPlusDemoApplication           : Started MybatisPlusDemoApplication in 0.65 seconds (JVM running for 2484.674)
+2022-06-02 09:59:22.463  INFO 60560 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-02 09:59:23.560  INFO 62588 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.653 seconds (JVM running for 3.469)
+2022-06-02 10:00:09.644  INFO 58516 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 58516 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:00:09.645 DEBUG 58516 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:00:09.646  INFO 58516 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:00:11.737  INFO 58516 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.433 seconds (JVM running for 3.271)
+2022-06-02 10:00:38.606  INFO 56392 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 56392 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:00:38.607 DEBUG 56392 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:00:38.608  INFO 56392 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:00:41.054  INFO 56392 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.805 seconds (JVM running for 3.62)
+2022-06-02 10:00:47.699  INFO 59920 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 59920 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:00:47.701 DEBUG 59920 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:00:47.702  INFO 59920 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:00:50.657  INFO 59920 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.557 seconds (JVM running for 4.824)
+2022-06-02 10:02:27.406  INFO 34908 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 34908 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:02:27.407 DEBUG 34908 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:02:27.408  INFO 34908 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:02:27.689  WARN 34908 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'application': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+2022-06-02 10:02:27.802 ERROR 34908 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'application': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) [spring-boot-test-2.7.0.jar:2.7.0]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) [spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) [spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) [spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) [spring-test-5.3.20.jar:5.3.20]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_152]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_152]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:215) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 85 common frames omitted
+Caused by: java.lang.InstantiationException: null
+	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48) ~[na:1.8.0_152]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_152]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 87 common frames omitted
+
+2022-06-02 10:02:27.810 ERROR 34908 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5b218417] to prepare test instance [hhf.mybatisplusdemo.controller.HelloControllerTest@35d6ca49]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) [spring-test-5.3.20.jar:5.3.20]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_152]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_152]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'application': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.0.jar:2.7.0]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:132) ~[spring-boot-test-2.7.0.jar:2.7.0]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124) ~[spring-test-5.3.20.jar:5.3.20]
+	... 69 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javafx.application.Application]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:215) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 85 common frames omitted
+Caused by: java.lang.InstantiationException: null
+	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(InstantiationExceptionConstructorAccessorImpl.java:48) ~[na:1.8.0_152]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_152]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.20.jar:5.3.20]
+	... 87 common frames omitted
+
+2022-06-02 10:04:59.409  INFO 65776 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 65776 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:04:59.410 DEBUG 65776 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:04:59.411  INFO 65776 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:05:02.478  INFO 65776 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.595 seconds (JVM running for 4.49)
+2022-06-02 10:05:26.726  INFO 66188 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 66188 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:05:26.727 DEBUG 66188 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:05:26.727  INFO 66188 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:05:29.154  INFO 66188 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.762 seconds (JVM running for 3.624)
+2022-06-02 10:06:44.101  INFO 51432 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 51432 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:06:44.102 DEBUG 51432 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:06:44.102  INFO 51432 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:06:46.437  INFO 51432 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.674 seconds (JVM running for 3.494)
+2022-06-02 10:07:51.591  INFO 12516 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 12516 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:07:51.592 DEBUG 12516 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:07:51.592  INFO 12516 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:07:53.612  INFO 12516 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.399 seconds (JVM running for 3.213)
+2022-06-02 10:07:53.671 ERROR 12516 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2d29b4ee] to prepare test instance [hhf.mybatisplusdemo.controller.HelloControllerTest@39909d1a]
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hhf.mybatisplusdemo.controller.HelloControllerTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.7.0.jar:2.7.0]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) [spring-test-5.3.20.jar:5.3.20]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_152]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_152]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1799) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1355) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329) ~[spring-context-5.3.20.jar:5.3.20]
+	... 71 common frames omitted
+
+2022-06-02 10:09:31.734  INFO 64064 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 64064 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:09:31.734 DEBUG 64064 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:09:31.735  INFO 64064 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:09:33.899  INFO 64064 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.482 seconds (JVM running for 3.274)
+2022-06-02 10:13:39.571  INFO 66424 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 66424 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:13:39.574 DEBUG 66424 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:13:39.575  INFO 66424 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:13:44.788  INFO 66424 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 5.932 seconds (JVM running for 7.468)
+2022-06-02 10:17:00.763  INFO 42584 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 42584 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:17:00.764 DEBUG 42584 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:17:00.764  INFO 42584 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:17:03.811  INFO 42584 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.52 seconds (JVM running for 4.469)
+2022-06-02 10:24:03.872  INFO 39044 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 39044 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:24:03.872 DEBUG 39044 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:24:03.873  INFO 39044 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:24:05.923  INFO 39044 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.367 seconds (JVM running for 3.132)
+2022-06-02 10:29:33.766  INFO 61012 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 61012 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:29:33.767 DEBUG 61012 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:29:33.767  INFO 61012 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:29:35.875  INFO 61012 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.422 seconds (JVM running for 3.203)
+2022-06-02 10:30:48.526  INFO 27276 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 27276 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:30:48.528 DEBUG 27276 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:30:48.529  INFO 27276 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:30:53.294  INFO 27276 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 5.416 seconds (JVM running for 6.662)
+2022-06-02 10:32:06.679  INFO 18116 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 18116 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:32:06.680 DEBUG 18116 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:32:06.681  INFO 18116 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:32:08.754  INFO 18116 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.365 seconds (JVM running for 3.102)
+2022-06-02 10:32:25.207  INFO 58604 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 58604 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:32:25.209 DEBUG 58604 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:32:25.209  INFO 58604 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:32:28.208  INFO 58604 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.452 seconds (JVM running for 4.365)
+2022-06-02 10:33:59.351  INFO 41588 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 41588 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:33:59.351 DEBUG 41588 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:33:59.352  INFO 41588 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:34:01.469  INFO 41588 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.424 seconds (JVM running for 3.201)
+2022-06-02 10:36:25.176  INFO 55640 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 55640 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:36:25.177 DEBUG 55640 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:36:25.178  INFO 55640 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:36:28.347  INFO 55640 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 10:36:28.347  INFO 55640 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 10:36:28.348  INFO 55640 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-02 10:36:28.376  INFO 55640 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.723 seconds (JVM running for 4.963)
+2022-06-02 10:36:36.559  INFO 58928 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 58928 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:36:36.560 DEBUG 58928 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:36:36.561  INFO 58928 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:36:39.399  INFO 58928 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 10:36:39.399  INFO 58928 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 10:36:39.400  INFO 58928 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-02 10:36:39.426  INFO 58928 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.396 seconds (JVM running for 4.508)
+2022-06-02 10:36:39.738  INFO 58928 --- [main] hhf.mybatisplusdemo.BaseTest             : test mybatis-plus
+2022-06-02 10:39:58.966  INFO 3504 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 3504 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:39:58.967 DEBUG 3504 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:39:58.968  INFO 3504 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:40:01.005  INFO 3504 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 10:40:01.006  INFO 3504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 10:40:01.006  INFO 3504 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-06-02 10:40:01.022  INFO 3504 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.397 seconds (JVM running for 3.14)
+2022-06-02 10:40:15.889  INFO 62868 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 62868 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:40:15.891 DEBUG 62868 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:40:15.891  INFO 62868 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:40:18.909  INFO 62868 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.342 seconds (JVM running for 4.14)
+2022-06-02 10:40:18.953 ERROR 62868 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@71075444] to prepare test instance [hhf.mybatisplusdemo.controller.HelloControllerTest@4eb166a1]
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'hhf.mybatisplusdemo.controller.HelloControllerTest': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireBeanProperties(AbstractAutowireCapableBeanFactory.java:417) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:119) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener.prepareTestInstance(SpringBootDependencyInjectionTestExecutionListener.java:43) ~[spring-boot-test-autoconfigure-2.7.0.jar:2.7.0]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248) ~[spring-test-5.3.20.jar:5.3.20]
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138) [spring-test-5.3.20.jar:5.3.20]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$8(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:368) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$9(ClassBasedTestDescriptor.java:363) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175) ~[na:1.8.0_152]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1382) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481) ~[na:1.8.0_152]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[na:1.8.0_152]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:743) ~[na:1.8.0_152]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:742) ~[na:1.8.0_152]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:362) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$6(ClassBasedTestDescriptor.java:283) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:282) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$4(ClassBasedTestDescriptor.java:272) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at java.util.Optional.orElseGet(Optional.java:267) ~[na:1.8.0_152]
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$5(ClassBasedTestDescriptor.java:271) [junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:102) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:101) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:66) ~[junit-jupiter-engine-5.8.2.jar:5.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$2(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:123) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:90) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1257) ~[na:1.8.0_152]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) ~[junit-platform-launcher-1.8.2.jar:1.8.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71) ~[junit5-rt.jar:na]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220) ~[junit-rt.jar:na]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53) ~[junit-rt.jar:na]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.test.web.servlet.MockMvc' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1799) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1355) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673) ~[spring-context-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119) ~[spring-beans-5.3.20.jar:5.3.20]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329) ~[spring-context-5.3.20.jar:5.3.20]
+	... 71 common frames omitted
+
+2022-06-02 10:43:56.067  INFO 62824 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 62824 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 10:43:56.067 DEBUG 62824 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 10:43:56.068  INFO 62824 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 10:43:58.100  INFO 62824 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 2.376 seconds (JVM running for 3.111)
+2022-06-02 11:01:04.021  INFO 65768 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 65768 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 11:01:04.022 DEBUG 65768 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 11:01:04.023  INFO 65768 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 11:01:08.131  INFO 65768 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 11:01:08.131  INFO 65768 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 11:01:08.133  INFO 65768 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-06-02 11:01:08.169  INFO 65768 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 4.533 seconds (JVM running for 5.339)
+2022-06-02 11:01:08.650  INFO 65768 --- [main] hhf.mybatisplusdemo.BaseTest             : test mybatis-plus
+2022-06-02 11:01:18.101  INFO 34896 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 34896 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 11:01:18.103 DEBUG 34896 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 11:01:18.104  INFO 34896 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 11:01:22.760  INFO 34896 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 5.413 seconds (JVM running for 7.091)
+2022-06-02 11:01:47.951  INFO 8208 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 8208 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 11:01:47.952 DEBUG 8208 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 11:01:47.953  INFO 8208 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 11:01:51.107  INFO 8208 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 11:01:51.108  INFO 8208 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 11:01:51.110  INFO 8208 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-02 11:01:51.140  INFO 8208 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 3.805 seconds (JVM running for 5.175)
+2022-06-02 11:01:51.444  WARN 8208 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-06-02 11:02:12.500  INFO 64776 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 64776 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 11:02:12.501 DEBUG 64776 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 11:02:12.501  INFO 64776 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 11:02:15.167  INFO 64776 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 11:02:15.168  INFO 64776 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 11:02:15.169  INFO 64776 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-02 11:02:15.194  INFO 64776 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 3.038 seconds (JVM running for 3.903)
+2022-06-02 11:02:15.503  WARN 64776 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-06-02 11:02:48.721  INFO 54884 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 54884 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 11:02:48.722 DEBUG 54884 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 11:02:48.723  INFO 54884 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 11:02:50.830  INFO 54884 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 11:02:50.830  INFO 54884 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 11:02:50.831  INFO 54884 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-06-02 11:02:50.850  INFO 54884 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 2.507 seconds (JVM running for 3.351)
+2022-06-02 11:02:51.154  INFO 54884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-02 11:02:52.472  INFO 54884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-02 11:02:52.480 DEBUG 54884 --- [main] h.m.mapper.StudentMapper.selectOneById   : ==>  Preparing: select * from student where id = ?
+2022-06-02 11:02:52.504 DEBUG 54884 --- [main] h.m.mapper.StudentMapper.selectOneById   : ==> Parameters: 3(Integer)
+2022-06-02 11:02:52.526 DEBUG 54884 --- [main] h.m.mapper.StudentMapper.selectOneById   : <==      Total: 1
+2022-06-02 11:02:52.605  INFO 54884 --- [main] hhf.mybatisplusdemo.BaseTest             : {"infor":"Student(id=3, stuNum=2020003, stuName=tom, age=18, gender=å¥³, birthday=2020-09-18)"}
+2022-06-02 11:02:52.625  INFO 54884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-02 11:02:52.635  INFO 54884 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-02 11:04:34.407  INFO 41852 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 41852 (started by Lenovo in E:\codes\hhf\unit-demo)
+2022-06-02 11:04:34.408 DEBUG 41852 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
+2022-06-02 11:04:34.408  INFO 41852 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2022-06-02 11:04:36.505  INFO 41852 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-06-02 11:04:36.505  INFO 41852 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-06-02 11:04:36.505  INFO 41852 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2022-06-02 11:04:36.522  INFO 41852 --- [main] h.m.controller.StudentControllerTest     : Started StudentControllerTest in 2.47 seconds (JVM running for 3.396)
+2022-06-02 11:04:36.723  WARN 41852 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
