@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mybatis-plus-demo" />
         <module name="springboot-kafka" />
+        <module name="mybatis-plus-demo" />
+        <module name="mybatis-plus-demo (1)" />
         <module name="Demo" />
         <module name="springboot-redis" />
         <module name="springboot-swagger" />
@@ -25,6 +26,7 @@
       <module name="excel-test" target="1.8" />
       <module name="generator-test" target="1.8" />
       <module name="mybatis-plus-demo" target="1.8" />
+      <module name="mybatis-plus-demo (1)" target="1.8" />
       <module name="mybatis-test" target="1.8" />
       <module name="spring-security" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
@@ -39,6 +41,7 @@
       <module name="excel-test" options="-parameters" />
       <module name="generator-test" options="-parameters" />
       <module name="mybatis-plus-demo" options="-parameters" />
+      <module name="mybatis-plus-demo (1)" options="-parameters" />
       <module name="spring-security" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
