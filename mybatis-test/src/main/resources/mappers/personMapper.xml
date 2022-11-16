@@ -73,5 +73,17 @@
         </where>
 
     </select>
+    <select id="selectPersonList" resultType="com.test.mybatistest.entity.Person">
+        SELECT user_id as userId,user_name as userName,age,salary,gender
+        FROM person
+        <where>
+            user_id in
+            <foreach collection="list" index="index" item="item" open="(" separator="," close=")">
+                #{item}
+            </foreach>
+        </where>
+
+
+    </select>
 
 </mapper>

@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -51,5 +52,15 @@ public class PersonController {
         int offset = page * 3;
         List<Person> list =  personService.queryPersonPage(page,offset);
         return list;
+    }
+    @GetMapping("/getPersonList")
+    public List<Person> getPersonList(){
+        ArrayList<Integer> integers = new ArrayList<>();
+        integers.add(2);
+        integers.add(4);
+        integers.add(5);
+        integers.add(7);
+        List<Person> people = personService.queryPersonList(integers);
+        return people;
     }
 }

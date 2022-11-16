@@ -23,4 +23,6 @@ public interface PersonMapper {
     List<Person> selectPersonPage(@Param("limit") int limit,@Param("offset") int offset);
 
     Person selectPerson(Person person);
+
+    List<Person> selectPersonList(List<Integer> list);
 }

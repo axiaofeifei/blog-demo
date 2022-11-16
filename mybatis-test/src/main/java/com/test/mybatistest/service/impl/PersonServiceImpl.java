@@ -42,4 +42,12 @@ public class PersonServiceImpl implements PersonService {
         Person resultPerson = personMapper.selectPerson(person);
         return resultPerson;
     }
+
+    @Override
+    public List<Person> queryPersonList(List<Integer> list) {
+        List<Person> people = personMapper.selectPersonList(list);
+
+        return people;
+
+    }
 }
