@@ -1,9 +1,9 @@
-package test.downfile;
+package downfile;
+
 
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 
 import javax.servlet.ServletOutputStream;
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.File;
 import java.io.FileInputStream;
