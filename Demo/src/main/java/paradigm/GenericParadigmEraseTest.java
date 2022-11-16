@@ -1,4 +1,7 @@
-package test.paradigm;
+package paradigm;
+
+import unit.Dog;
+import unit.Person;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +15,7 @@ import java.util.List;
 public class GenericParadigmEraseTest {
     public static void main(String[] args) {
         Dog dog = new Dog("huahua", 12, "灰");
-        Person person = new Person("小红",23,"女");
+        Person person = new Person("小红",2000,23,"女","森林");
 
         List<Person> personList = new ArrayList<>();
         List<Dog> dogList = new ArrayList<>();
