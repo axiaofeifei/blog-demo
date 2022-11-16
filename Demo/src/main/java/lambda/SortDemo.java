@@ -1,7 +1,8 @@
-package test.lambda;
+package lambda;
 
 
-import test.lambda.PersonList;
+import unit.Person;
+import unit.PersonList;
 
 import java.util.ArrayList;
 import java.util.Comparator;

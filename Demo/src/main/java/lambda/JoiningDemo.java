@@ -1,5 +1,8 @@
-package test.lambda;
+package lambda;
 
+
+import unit.Person;
+import unit.PersonList;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +23,7 @@ public class JoiningDemo {
 
 
         String stringStream = people.stream().map(n -> n.getName()).collect(Collectors.joining("--"));
-        String collect = people.stream().map(Person::getSex).collect(Collectors.joining("-"));
+        String collect = people.stream().map(Person::getGender).collect(Collectors.joining("-"));
 
     }
 }
