@@ -1,4 +1,4 @@
-package test.uuid;
+package uuid;
 
 /**
  * @Author hehongfei
@@ -10,6 +10,7 @@ public class UUIDTest {
     public static void main(String[] args) {
         UUIDUtils uuidUtils = new UUIDUtils();
 
+
         //未写replace("-","")的
         System.out.println("未写replace(\"-\",\"\")的:");
         System.out.println(uuidUtils.getUUID());
@@ -17,9 +18,9 @@ public class UUIDTest {
         //写了replace("-","")的  32位
         System.out.println("写了replace(\"-\",\"\")的,32位随机数:");
         System.out.println(uuidUtils.getUUID2());
-
+        System.out.println("输出多少位随机数");
         System.out.println("uuidUtils.getUUID(10) = " + uuidUtils.getUUID(10));
-
+        System.out.println("大写的英文随机数");
         System.out.println("uuidUtils.getUpperUUID() = " + uuidUtils.getUpperUUID());
     }
 }
