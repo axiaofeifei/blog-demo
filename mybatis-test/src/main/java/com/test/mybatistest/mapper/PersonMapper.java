@@ -30,4 +30,5 @@ public interface PersonMapper {
 
     List<Person> selectPersonListUserMap(@Param("map") HashMap<String,Integer> map);
 
+    Integer insertList( List<Person> list);
 }

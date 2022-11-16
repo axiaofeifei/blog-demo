@@ -57,4 +57,10 @@ public class PersonServiceImpl implements PersonService {
         List<Person> people = personMapper.selectPersonListUserMap(map);
         return people;
     }
+
+    @Override
+    public Integer newList(List<Person> list) {
+        Integer integer = personMapper.insertList(list);
+        return integer;
+    }
 }

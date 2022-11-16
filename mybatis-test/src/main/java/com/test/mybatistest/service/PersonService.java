@@ -25,4 +25,6 @@ public interface PersonService {
     List<Person> queryPersonList(List<Integer> list);
 
     List<Person> queryPersonListUserMap(HashMap<String,Integer> map);
+
+    Integer newList(List<Person> list);
 }

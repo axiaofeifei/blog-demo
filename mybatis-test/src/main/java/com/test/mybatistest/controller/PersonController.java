@@ -76,5 +76,20 @@ public class PersonController {
         return people;
     }
 
+    @GetMapping("/newPersonList")
+    public int newPersonList(){
+
+        ArrayList<Person> people1 = new ArrayList<>();
+        people1.add(new Person(15,"参森",26,34442,"男"));
+        people1.add(new Person(16,"屈原",23,34668,"男"));
+
+
+        int number = personService.newList(people1);
+
+        return number;
+    }
+
+
+
 
 }
