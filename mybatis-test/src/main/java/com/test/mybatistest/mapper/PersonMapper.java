@@ -11,7 +11,9 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Mapper
 public interface PersonMapper {
@@ -25,4 +27,7 @@ public interface PersonMapper {
     Person selectPerson(Person person);
 
     List<Person> selectPersonList(List<Integer> list);
+
+    List<Person> selectPersonListUserMap(@Param("map") HashMap<String,Integer> map);
+
 }

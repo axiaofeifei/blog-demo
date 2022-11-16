@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -63,4 +64,17 @@ public class PersonController {
         List<Person> people = personService.queryPersonList(integers);
         return people;
     }
+
+    @GetMapping("/getPersonListUseMap")
+    public List<Person> getPersonListUseMap(){
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("id",4);
+
+
+        List<Person> people = personService.queryPersonListUserMap(map);
+
+        return people;
+    }
+
+
 }

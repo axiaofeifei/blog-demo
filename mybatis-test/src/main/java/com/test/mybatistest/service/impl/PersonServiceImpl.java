@@ -6,6 +6,7 @@ import com.test.mybatistest.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -49,5 +50,11 @@ public class PersonServiceImpl implements PersonService {
 
         return people;
 
+    }
+
+    @Override
+    public List<Person> queryPersonListUserMap(HashMap<String, Integer> map) {
+        List<Person> people = personMapper.selectPersonListUserMap(map);
+        return people;
     }
 }

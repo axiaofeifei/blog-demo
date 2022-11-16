@@ -7,7 +7,9 @@
 package com.test.mybatistest.service;
 
 import com.test.mybatistest.entity.Person;
+import org.apache.ibatis.annotations.Param;
 
+import java.util.HashMap;
 import java.util.List;
 
 public interface PersonService {
@@ -21,4 +23,6 @@ public interface PersonService {
     Person queryPerson(Person person);
 
     List<Person> queryPersonList(List<Integer> list);
+
+    List<Person> queryPersonListUserMap(HashMap<String,Integer> map);
 }
