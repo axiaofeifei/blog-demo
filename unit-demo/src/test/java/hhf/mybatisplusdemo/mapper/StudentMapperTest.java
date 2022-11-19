@@ -2,16 +2,13 @@ package hhf.mybatisplusdemo.mapper;
 
 import hhf.mybatisplusdemo.BaseTest;
 import hhf.mybatisplusdemo.MybatisPlusDemoApplication;
-import hhf.mybatisplusdemo.entity.Student;
+import hhf.mybatisplusdemo.entity.Students;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
-import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * hhf.mybatisplusdemo.mapper
@@ -30,9 +27,20 @@ class StudentMapperTest extends BaseTest {
 	void selectOneById() {
 		init();
 
-		Student student = studentMapper.selectOneById(5);
-		System.out.println(student);
+		Students student = studentMapper.selectOneById(5);
 
 		after();
+	}
+	@Test
+	void insert(){
+		Students students = new Students( );
+		students.setId(56);
+		students.setStuNum(123L);
+		students.setStuName("张雪婷");
+		students.setAge(25L);
+		students.setGender("女");
+		students.setBirthday("19951203");
+		int result = studentMapper.insert(students);
+		System.out.println("result = " + result);
 	}
 }

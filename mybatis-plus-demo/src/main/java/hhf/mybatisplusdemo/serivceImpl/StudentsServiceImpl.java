@@ -5,8 +5,9 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import hhf.mybatisplusdemo.entity.Student;
 import hhf.mybatisplusdemo.mapper.StudentsMapper;
+import hhf.mybatisplusdemo.entity.Students;
+
 import hhf.mybatisplusdemo.service.StudentsService;
 import org.springframework.stereotype.Service;
 
@@ -22,13 +23,13 @@ import java.util.function.Function;
  * @date 2022/5/20 14:05
  */
 @Service
-public class StudentsServiceImpl extends ServiceImpl<StudentsMapper,Student> implements StudentsService {
+public class StudentsServiceImpl extends ServiceImpl<StudentsMapper, Students> implements StudentsService {
     @Resource
     private StudentsMapper studentsMapper;
 
     @Override
-    public Student getById(Serializable id) {
-        Student stu = studentsMapper.selectById(id);
+    public Students getById(Serializable id) {
+        Students stu = studentsMapper.selectById(id);
         return stu;
     }
 
@@ -38,9 +39,9 @@ public class StudentsServiceImpl extends ServiceImpl<StudentsMapper,Student> imp
      * @return
      */
     @Override
-    public Student getOne(Wrapper<Student> queryWrapper) {
-        Student student = studentsMapper.selectOne(queryWrapper);
-        return student;
+    public Students getOne(Wrapper<Students> queryWrapper) {
+        Students students = studentsMapper.selectOne(queryWrapper);
+        return students;
     }
 
     @Override
@@ -53,17 +54,17 @@ public class StudentsServiceImpl extends ServiceImpl<StudentsMapper,Student> imp
     }
 
     @Override
-    public Student getOne(Wrapper<Student> queryWrapper, boolean throwEx) {
+    public Students getOne(Wrapper<Students> queryWrapper, boolean throwEx) {
         return null;
     }
 
     @Override
-    public Map<String, Object> getMap(Wrapper<Student> queryWrapper) {
+    public Map<String, Object> getMap(Wrapper<Students> queryWrapper) {
         return null;
     }
 
     @Override
-    public <V> V getObj(Wrapper<Student> queryWrapper, Function<? super Object, V> mapper) {
+    public <V> V getObj(Wrapper<Students> queryWrapper, Function<? super Object, V> mapper) {
         return null;
     }
 
@@ -73,35 +74,35 @@ public class StudentsServiceImpl extends ServiceImpl<StudentsMapper,Student> imp
      * @return
      */
     @Override
-    public List<Student> listByMap(Map<String, Object> columnMap) {
-        List<Student> studentList = studentsMapper.selectByMap(columnMap);
+    public List<Students> listByMap(Map<String, Object> columnMap) {
+        List<Students> studentsList = studentsMapper.selectByMap(columnMap);
 
-        return studentList;
+        return studentsList;
     }
 
 
 
     @Override
-    public <E extends IPage<Student>> E page(E page) {
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+    public <E extends IPage<Students>> E page(E page) {
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<>();
         E e = studentsMapper.selectPage(page, queryWrapper);
         return e;
     }
 
     //    传入指定条件查询，返回List<Map<String, Object>>
     @Override
-    public List<Map<String, Object>> listMaps(Wrapper<Student> queryWrapper) {
+    public List<Map<String, Object>> listMaps(Wrapper<Students> queryWrapper) {
         List<Map<String, Object>> maps = studentsMapper.selectMaps(queryWrapper);
         return maps;
     }
 
     //    按照某一种要求  查询所有符合要求的学生
     @Override
-    public List<Student> list(Wrapper<Student> queryWrapper) {
+    public List<Students> list(Wrapper<Students> queryWrapper) {
 //       queryWrapper参数包含了传输过来的要求
-        List<Student> studentList = studentsMapper.selectList(queryWrapper);
+        List<Students> studentsList = studentsMapper.selectList(queryWrapper);
 
-        return studentList;
+        return studentsList;
     }
 
     /**
@@ -109,25 +110,25 @@ public class StudentsServiceImpl extends ServiceImpl<StudentsMapper,Student> imp
      * @return
      */
     @Override
-    public List<Student> list() {
+    public List<Students> list() {
 //        表示所有学生
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<Student>();
-        List<Student> studentList = studentsMapper.selectList(queryWrapper);
-        return studentList;
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<Students>();
+        List<Students> studentsList = studentsMapper.selectList(queryWrapper);
+        return studentsList;
     }
 
 
 
     @Override
-    public Class<Student> getEntityClass() {
+    public Class<Students> getEntityClass() {
         return null;
     }
 
 
     @Override
-    public Page<Student> pageList(QueryWrapper<Student> queryWrapper) {
-        Page<Student> studentPage = new Page<>();
-        Page<Student> studentPage1 = studentsMapper.selectPage(studentPage, queryWrapper);
+    public Page<Students> pageList(QueryWrapper<Students> queryWrapper) {
+        Page<Students> studentPage = new Page<>();
+        Page<Students> studentPage1 = studentsMapper.selectPage(studentPage, queryWrapper);
         return studentPage1;
     }
 }

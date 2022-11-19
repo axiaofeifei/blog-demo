@@ -2,7 +2,7 @@ package hhf.mybatisplusdemo.util;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.metadata.OrderItem;
-import hhf.mybatisplusdemo.entity.Student;
+import hhf.mybatisplusdemo.entity.Students;
 
 import java.util.List;
 
@@ -11,7 +11,7 @@ import java.util.List;
  * @version 1.0
  * @date 2022/5/20 16:47
  */
-public class Page implements IPage<Student> {
+public class Page implements IPage<Students> {
 
 
 
@@ -24,12 +24,12 @@ public class Page implements IPage<Student> {
     }
 
     @Override
-    public List<Student> getRecords() {
+    public List<Students> getRecords() {
         return null;
     }
 
     @Override
-    public IPage<Student> setRecords(List<Student> records) {
+    public IPage<Students> setRecords(List<Students> records) {
         return null;
     }
 
@@ -39,7 +39,7 @@ public class Page implements IPage<Student> {
     }
 
     @Override
-    public IPage<Student> setTotal(long total) {
+    public IPage<Students> setTotal(long total) {
         return null;
     }
 
@@ -49,7 +49,7 @@ public class Page implements IPage<Student> {
     }
 
     @Override
-    public IPage<Student> setSize(long size) {
+    public IPage<Students> setSize(long size) {
         return null;
     }
 
@@ -59,7 +59,7 @@ public class Page implements IPage<Student> {
     }
 
     @Override
-    public IPage<Student> setCurrent(long current) {
+    public IPage<Students> setCurrent(long current) {
         return null;
     }
 }

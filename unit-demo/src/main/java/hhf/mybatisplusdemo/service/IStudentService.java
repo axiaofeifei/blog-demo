@@ -1,12 +1,8 @@
 package hhf.mybatisplusdemo.service;
 
-import hhf.mybatisplusdemo.entity.Student;
 import com.baomidou.mybatisplus.extension.service.IService;
-import hhf.mybatisplusdemo.mapper.StudentMapper;
+import hhf.mybatisplusdemo.entity.Students;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Priority;
-import javax.annotation.Resource;
 
 /**
  * <p>
@@ -17,8 +13,8 @@ import javax.annotation.Resource;
  * @since 2022-06-01
  */
 @Service
-public interface IStudentService extends IService<Student> {
+public interface IStudentService extends IService<Students> {
 
 
-	Student getOneById(Integer id);
+	Students getOneById(Integer id);
 }

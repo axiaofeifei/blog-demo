@@ -3,7 +3,7 @@ package hhf.mybatisplusdemo.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import hhf.mybatisplusdemo.entity.Student;
+import hhf.mybatisplusdemo.entity.Students;
 import hhf.mybatisplusdemo.service.StudentsService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -48,10 +48,10 @@ public class StudentsController {
 
 
     @GetMapping("get")
-    public Student get(){
+    public Students get(){
         int id = 1;
-        Student student = studentsService.getById(id);
-        return student;
+        Students students = studentsService.getById(id);
+        return students;
     }
 
     /**
@@ -60,12 +60,12 @@ public class StudentsController {
      * @return
      */
     @GetMapping("getOne")
-    public Student getOne(@PathParam("id") Integer id){
-        Student student = studentsService.getById(id);
-        if (student == null || student.equals("")) {
+    public Students getOne(@PathParam("id") Integer id){
+        Students students = studentsService.getById(id);
+        if (students == null || students.equals("")) {
             System.out.println("student不存在");
         }
-        return student;
+        return students;
     }
 
     /**
@@ -74,11 +74,11 @@ public class StudentsController {
      * @return
      */
     @GetMapping("/getOneById")
-    public Student getOneById(@PathParam("id") Integer id){
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+    public Students getOneById(@PathParam("id") Integer id){
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("id",id);
-        Student student = studentsService.getOne(queryWrapper);
-        return student;
+        Students students = studentsService.getOne(queryWrapper);
+        return students;
     }
 
     /**
@@ -87,13 +87,13 @@ public class StudentsController {
      * @return
      */
     @GetMapping("/getOneByStuName")
-    public Student getOneById(@PathParam("stuName") String stuName){
+    public Students getOneById(@PathParam("stuName") String stuName){
 //        设置查询条件
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("stu_name",stuName);
 
-        Student student = studentsService.getOne(queryWrapper);
-        return student;
+        Students students = studentsService.getOne(queryWrapper);
+        return students;
     }
 
     /**
@@ -101,9 +101,9 @@ public class StudentsController {
      * @return
      */
     @GetMapping("/getStudentList")
-    public List<Student> list(){
-        ArrayList<Student> students = new ArrayList<>();
-        List<Student> list = studentsService.list();
+    public List<Students> list(){
+        ArrayList<Students> students = new ArrayList<>();
+        List<Students> list = studentsService.list();
         return list;
     }
 
@@ -112,12 +112,12 @@ public class StudentsController {
      * @return
      */
     @GetMapping("/getStudentListBySex")
-    public List<Student> list(@PathParam("gender") String gender){
+    public List<Students> list(@PathParam("gender") String gender){
 //
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("gender", gender);
 
-        List<Student> list = studentsService.list(queryWrapper);
+        List<Students> list = studentsService.list(queryWrapper);
         return list;
     }
 
@@ -126,12 +126,12 @@ public class StudentsController {
      * @return
      */
     @GetMapping("/listStudentListByAge")
-    public List<Student> listStudentListByAge(@PathParam("age") Integer age){
+    public List<Students> listStudentListByAge(@PathParam("age") Integer age){
 //
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("age", age);
 
-        List<Student> list = studentsService.list(queryWrapper);
+        List<Students> list = studentsService.list(queryWrapper);
         return list;
     }
 
@@ -139,8 +139,8 @@ public class StudentsController {
     @GetMapping("/listStudentMapByBirthday")
     public List<Map<String, Object>> listStudentMapByBirthday(@PathParam("birthday") String birthday){
 //        指定条件
-        QueryWrapper<Student> queryWrapper = new QueryWrapper();
-        queryWrapper.lambda().eq(Student::getBirthday, birthday);
+        QueryWrapper<Students> queryWrapper = new QueryWrapper();
+        queryWrapper.lambda().eq(Students::getBirthday, birthday);
 
         List<Map<String, Object>> maps = studentsService.listMaps(queryWrapper);
 //遍历输出maps,后台检查
@@ -156,11 +156,11 @@ public class StudentsController {
     }
 //    分页查询
     @GetMapping("/StudentPage")
-    public IPage<Student> StudentPage(){
-        Page<Student> studentPage = new Page<>();
+    public IPage<Students> StudentPage(){
+        Page<Students> studentPage = new Page<>();
         studentPage.setSize(10);
 
-        Page<Student> page = studentsService.page(studentPage);
+        Page<Students> page = studentsService.page(studentPage);
         System.out.println("-----------------------------------");
         System.out.println(page.getCurrent());
         System.out.println(page.getPages());
@@ -173,12 +173,12 @@ public class StudentsController {
 
     //    根据条件分页查询
     @GetMapping("/StudentPageByGender")
-    public IPage<Student> StudentPageBySec(@PathParam("gender") String gender){
-        QueryWrapper<Student> queryWrapper = new QueryWrapper<>();
+    public IPage<Students> StudentPageBySec(@PathParam("gender") String gender){
+        QueryWrapper<Students> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("gender", gender);
 
 
-        IPage<Student> page= studentsService.pageList(queryWrapper);
+        IPage<Students> page= studentsService.pageList(queryWrapper);
 
 //        System.out.println("-----------------------------------");
 //        System.out.println(page.getCurrent());
@@ -193,8 +193,8 @@ public class StudentsController {
 
 
     @GetMapping("saveOneStudent")
-    public boolean save(Student student){
-        if (studentsService.save(student)) {
+    public boolean save(Students students){
+        if (studentsService.save(students)) {
             return true;
         }
         return false;

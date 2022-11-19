@@ -1,7 +1,7 @@
 package hhf.mybatisplusdemo.mapper;
 
-import hhf.mybatisplusdemo.entity.Student;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import hhf.mybatisplusdemo.entity.Students;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
@@ -13,8 +13,8 @@ import org.apache.ibatis.annotations.Mapper;
  * @since 2022-06-01
  */
 @Mapper
-public interface StudentMapper extends BaseMapper<Student> {
+public interface StudentMapper extends BaseMapper<Students> {
 
 
-	Student selectOneById(Integer id);
+	//Students selectOneById(Integer id);
 }

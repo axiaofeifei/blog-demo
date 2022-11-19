@@ -3,25 +3,15 @@ package hhf.mybatisplusdemo.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import hhf.mybatisplusdemo.entity.Student;
-import hhf.mybatisplusdemo.mapper.StudentMapper;
+import hhf.mybatisplusdemo.entity.Students;
 import hhf.mybatisplusdemo.service.IStudentService;
-import org.apache.ibatis.annotations.Param;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import javax.sound.midi.Soundbank;
 import javax.websocket.server.PathParam;
-import java.sql.SQLOutput;
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.List;
 
 /**
  * <p>
@@ -54,7 +44,7 @@ public class StudentController {
 
 	@GetMapping("/getOne")
 	public JSON getOne(@PathParam("id") Integer id){
-		Student student = iStudentService.getOneById(id);
+		Students student = iStudentService.getOneById(id);
 
 		JSONObject jsonObject = new JSONObject();
 		jsonObject.put("infor", student.toString());

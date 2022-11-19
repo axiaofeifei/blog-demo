@@ -3,7 +3,7 @@ package hhf.mybatisplusdemo.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
-import hhf.mybatisplusdemo.entity.Student;
+import hhf.mybatisplusdemo.entity.Students;
 import org.springframework.stereotype.Service;
 
 /**
@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
  * @date 2022/5/20 11:13
  */
 @Service
-public interface StudentsService extends IService<Student> {
+public interface StudentsService extends IService<Students> {
 
-    Page<Student> pageList(QueryWrapper<Student> queryWrapper);
+    Page<Students> pageList(QueryWrapper<Students> queryWrapper);
 }
