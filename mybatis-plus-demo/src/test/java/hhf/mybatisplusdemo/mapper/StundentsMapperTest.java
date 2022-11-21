@@ -14,6 +14,7 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @Author hehongfei
@@ -63,10 +64,50 @@ public class StundentsMapperTest {
 
     @Test
     void selectWrap(){
-        QueryWrapper<Students> wrapper = new QueryWrapper<>();
-        wrapper.eq("stu_name","张雪婷");
-        Long aLong = studentsMapper.selectCount(wrapper);
-        System.out.println("aLong = " + aLong);
+        System.out.println("-----------------------selectCount---------------------");
+
+        QueryWrapper<Students> wrapperCount = new QueryWrapper<>();
+        wrapperCount.eq("stu_name","张雪婷");
+        Long aLong = studentsMapper.selectCount(wrapperCount);
+        //System.out.println("aLong = " + aLong);
+
+        System.out.println("-----------------------selectList---------------------");
+        QueryWrapper<Students> wrapperList = new QueryWrapper<>();
+        wrapperList.ge("id","19");
+        List<Students> students = studentsMapper.selectList(wrapperList);
+        //for (Students student : students) {
+        //    System.out.println(student);
+        //}
+
+        System.out.println("-----------------------selectOne---------------------");
+        QueryWrapper<Students> wrapperOne = new QueryWrapper<>();
+        wrapperOne.eq("stu_name","乔莉");
+        Students students1 = studentsMapper.selectOne(wrapperOne);
+        //System.out.println("students1 = " + students1);
+
+        System.out.println("-----------------------selectMaps---------------------");
+        QueryWrapper<Students> wrapperMaps = new QueryWrapper<>();
+        wrapperMaps.lt("id",20);
+        List<Map<String, Object>> listMaps = studentsMapper.selectMaps(wrapperMaps);
+        for (Map<String, Object> listMap : listMaps) {
+            //listMap.forEach((k,v)->{
+            //    System.out.println(k+":"+v);
+            //});
+        }
+
+        System.out.println("-----------------------selectMaps---------------------");
+        QueryWrapper<Students> wrapperObjs = new QueryWrapper<>();
+        wrapperObjs.le("id",12);
+        List<Object> objects = studentsMapper.selectObjs(wrapperObjs);
+        for (Object object : objects) {
+            Students object1 = (Students) object;
+            System.out.println("object1.getId() = " + object1.getId());
+            System.out.println("object1.getAge() = " + object1.getAge());
+            System.out.println("object1.getStuName() = " + object1.getStuName());
+
+            System.out.println(object);
+        }
+
 
     }
     @Test
@@ -88,10 +129,19 @@ public class StundentsMapperTest {
         int i = studentsMapper.deleteByMap(map);
         System.out.println("i = " + i);
 
+
+
         List<Integer> asList = Arrays.asList(4, 5, 6);
         int result = studentsMapper.deleteBatchIds(asList);
         System.out.println("result = " + result);
 
+    }
+    @Test
+    void deleteWrap(){
+        QueryWrapper<Students> wrapper = new QueryWrapper<>();
+        wrapper.eq("stu_name","王丽燕");
+        int delete = studentsMapper.delete(wrapper);
+        System.out.println("delete = " + delete);
     }
 
     @Test
@@ -103,6 +153,17 @@ public class StundentsMapperTest {
         int i = studentsMapper.updateById(students);
         System.out.println("i = " + i);
 
-
+    }
+    @Test
+    void updateWrapper(){
+        Students students = new Students();
+        students.setId(23);
+        students.setGender("女");
+        students.setStuName("");
+        QueryWrapper<Students> wrapperUpdate = new QueryWrapper<>();
+        wrapperUpdate.eq("stu_name","高晓");
+        wrapperUpdate.eq("age","23");
+        int update = studentsMapper.update(students, wrapperUpdate);
+        System.out.println("update = " + update);
     }
 }

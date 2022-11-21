@@ -22,13 +22,11 @@ public class Students implements Serializable {
   private String gender;
   private String birthday;
 
-
-
-
-
-
-
-
-
-
+  public Students(Long stuNum, String stuName, Long age, String gender, String birthday) {
+    this.stuNum = stuNum;
+    this.stuName = stuName;
+    this.age = age;
+    this.gender = gender;
+    this.birthday = birthday;
+  }
 }
