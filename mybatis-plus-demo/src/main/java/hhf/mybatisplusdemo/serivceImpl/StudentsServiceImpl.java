@@ -28,15 +28,6 @@ public class StudentsServiceImpl extends ServiceImpl<StudentsMapper, Students> i
     private StudentsMapper studentsMapper;
 
 
-
-    @Resource
-    private StudentsService studentsService;
-
-
-
-
-
-
     @Override
     public Class<Students> getEntityClass() {
         return null;

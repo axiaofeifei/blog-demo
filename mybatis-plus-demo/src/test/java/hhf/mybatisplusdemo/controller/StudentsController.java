@@ -1,14 +1,12 @@
-package hhf.mybatisplusdemo.serviceImpl;
+package hhf.mybatisplusdemo.controller;
 
 import hhf.mybatisplusdemo.entity.Students;
 import hhf.mybatisplusdemo.service.StudentsService;
-import hhf.mybatisplusdemo.tool.StudentsList;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @Author hehongfei
@@ -16,7 +14,7 @@ import java.util.List;
  * @Date 2022/11/19 15:07
  */
 @SpringBootTest
-public class StudentsServiceImpl {
+public class StudentsController {
 
     @Resource
     private StudentsService studentsService;

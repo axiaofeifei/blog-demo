@@ -3,4 +3,9 @@
 
 <mapper namespace="hhf.mybatisplusdemo.mapper.StudentsMapper">
 
+    <select id="selectPageVo" resultType="hhf.mybatisplusdemo.entity.Students">
+        SELECT id as id,stu_num as stuNum,stu_name as stuName,age as age,gender as gender,birthday as birthday
+        FROM student
+        WHERE age > #{age}
+    </select>
 </mapper>
