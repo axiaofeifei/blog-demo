@@ -42,24 +42,27 @@ public class StundentsMapperTest {
 
     @Test
     void select(){
-        Students students = studentsMapper.selectById(12);
+        //批量查询
+        /*     Students students = studentsMapper.selectById(12);
         System.out.println("students = " + students);
 
         List<Integer> listId = Arrays.asList(1, 2, 3);
         List<Students> studentsList = studentsMapper.selectBatchIds(listId);
         for (Students students1 : studentsList) {
             System.out.println("students1 = " + students1);
-        }
+        }*/
 
-        //可以一次查多条数据，也可以只拿确切的一条数据
+        //selectByMap可以一次查多条数据，也可以只拿确切的一条数据
         HashMap<String, Object> map = new HashMap<>();
-        //map.put("stu_name","乔莉");
-        map.put("stu_name","张雪婷");
-        map.put("id",53);
+        map.put("stu_name","tom");
+        map.put("age",63);
+
         List<Students> students1 = studentsMapper.selectByMap(map);
+        //System.out.println(students1);
         for (Students students2 : students1) {
             System.out.println("students2 = " + students2);
         }
+
     }
 
     @Test
@@ -139,7 +142,8 @@ public class StundentsMapperTest {
     @Test
     void deleteWrap(){
         QueryWrapper<Students> wrapper = new QueryWrapper<>();
-        wrapper.eq("stu_name","王丽燕");
+        wrapper.eq("stu_name","tom")
+                .eq("age",63);
         int delete = studentsMapper.delete(wrapper);
         System.out.println("delete = " + delete);
     }

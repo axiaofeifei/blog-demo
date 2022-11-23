@@ -26,8 +26,8 @@ public class StudentsController {
         for (Long i = 100L; i < 200; i++) {
             int j =100;
             j = j+1;
-            Students student = new Students(j, (Long) i, i + "name", i, "女", i + "");
-            students.add(student);
+            //Students student = new Students(j, (Long) i, i + "name", i, "女", i + "");
+            //students.add(student);
         }
         studentsService.saveBatch(students);
     }
