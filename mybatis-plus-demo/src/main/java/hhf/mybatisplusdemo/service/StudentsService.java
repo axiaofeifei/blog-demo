@@ -6,6 +6,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 import hhf.mybatisplusdemo.entity.Students;
 import org.springframework.stereotype.Service;
 
+import java.rmi.server.ExportException;
+import java.sql.SQLException;
+
 /**
  * @author 小非肥
  * @version 1.0
@@ -15,4 +18,12 @@ import org.springframework.stereotype.Service;
 public interface StudentsService extends IService<Students> {
 
     Page<Students> pageList(QueryWrapper<Students> queryWrapper);
+
+    void test() throws Exception;
+
+    void test2();
+
+    void test3();
+
+    void test4();
 }

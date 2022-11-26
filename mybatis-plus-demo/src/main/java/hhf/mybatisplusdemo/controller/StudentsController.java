@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 import javax.websocket.server.PathParam;
+import java.rmi.server.ExportException;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -26,10 +28,28 @@ public class StudentsController {
     @Resource
     private StudentsService studentsService;
 
+
     @GetMapping("/hello")
     public String hello(){
         return "hello";
     }
+
+    /**
+     * 测试@transactional
+     */
+    @GetMapping("/transactional")
+    public String test() throws Exception {
+        //studentsService.test();
+        //两个方法都有@transactional,回滚成功
+        //调用的方法有@ransactional,被调用的方法没有@Transactional,回滚成功
+        //调用的方法有@Transactional,被调用的方法没有@Transactional,回滚失败
+        studentsService.test2();
+
+        System.out.println("---------transactional test--------");
+        return "transactional Test";
+    }
+
+
 
     /**
      * 根据数据库id删除用户
