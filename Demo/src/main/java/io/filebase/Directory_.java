@@ -54,4 +54,17 @@ public class Directory_ {
             }
         }
     }
+
+//    e:\\demo判断目录是否存在，如果存在就提示存在，否则就创建
+    @Test
+    public void m4(){
+        String path = "e:\\demo";
+        File file = new File(path);
+        if (file.exists()) {
+            System.out.println("目录已存在...");
+        }else {
+            file.mkdir();
+            System.out.println("目录创建成功...");
+        }
+    }
 }
