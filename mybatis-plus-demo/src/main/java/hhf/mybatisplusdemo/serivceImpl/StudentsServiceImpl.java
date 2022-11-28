@@ -74,12 +74,13 @@ public class StudentsServiceImpl extends ServiceImpl<StudentsMapper, Students> i
             //Exception，不会发生回滚
             //throw new Exception("测试Exception");
         }
-
         //异常不要在业务层进行处理，抛到控制层统一进行处理
+        //异常在这里被处理，就不会发生回滚。
         if (status){
             try {
                 throw new RuntimeException("发生了RuntimeException，" +
                         "本来应该进行回滚..............，但是被捕获处理了spring未识别，因此没有回滚");
+
             }catch (Exception e){
                 e.printStackTrace();
             }
