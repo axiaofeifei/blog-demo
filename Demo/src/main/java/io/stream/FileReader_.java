@@ -30,6 +30,13 @@ public class FileReader_ {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
+            if (fileReader != null) {
+                try {
+                    fileReader.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         }
 
     }
@@ -49,6 +56,13 @@ public class FileReader_ {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
+            if (fileReader != null) {
+                try {
+                    fileReader.close();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         }
 
     }
