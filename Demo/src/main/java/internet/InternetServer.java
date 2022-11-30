@@ -14,6 +14,11 @@ import java.net.UnknownHostException;
  * @Description
  * @Date 2022/11/30 10:30
  */
+
+        //1.编写一个服务器端,和一个客户端
+        //2.服务器端在 9999端口监听
+        //3.客户端连接到服务器端，发送“hello,server”，然后退出
+        //4.服务器端接收到 客户端发送的 信息，输出，并退出
 public class InternetServer {
 
     @Test
