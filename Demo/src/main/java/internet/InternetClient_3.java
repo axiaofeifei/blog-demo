@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Test;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 /**
  * @Author hehongfei
@@ -21,7 +20,7 @@ import java.net.UnknownHostException;
  * 出
  * 4.服务端接收到 客户端发送的 信息，输出，并发送“hello,client”再退出
  */
-public class internetClient_3 {
+public class InternetClient_3 {
     @Test
     public void Client_3() throws IOException, InterruptedException {
         String readLen = "";
