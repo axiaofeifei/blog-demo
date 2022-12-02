@@ -39,12 +39,16 @@ public class InternetServer_2 {
         }
         //socket关闭输入流
         accept.shutdownInput();
+
+
         outputStream.write("hello client".getBytes());
+        accept.shutdownOutput();
 
         outputStream.close();
         inputStream.close();
         accept.close();
         serverSocket.close();
+        System.out.println("服务器端退出...");
 
 
 

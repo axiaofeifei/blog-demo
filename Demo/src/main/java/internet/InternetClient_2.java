@@ -33,9 +33,11 @@ public class InternetClient_2 {
         while ((readLen = inputStream.read(buf)) != -1) {
             System.out.println(new String(buf,0,readLen));
         }
+        socket.shutdownInput();
 
         inputStream.close();
         outputStream.close();
         socket.close();
+        System.out.println("客户端推出...");
     }
 }
