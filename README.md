@@ -11,10 +11,7 @@ aaaaaaaaaaaaaa
 bbbbbbb
 cccccccccccccccc
 
-dddddddddddddddd
-
-rrrrrrrrrrrrrrrrrrrr
-
+aaaaaaaaaaaaaaaa
 tttttttttttttttt
 
 
