@@ -13,7 +13,8 @@ import java.net.UnknownHostException;
  * @Description
  * @Date 2022/11/30 10:29
  */
-// internetClient
+// internet
+//client
 public class InternetClient {
     @Test
     public void Client() throws IOException {
