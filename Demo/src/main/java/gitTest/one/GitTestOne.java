@@ -7,5 +7,5 @@ package gitTest.one;
  */
 
 public class GitTestOne {
-
+//A要提交内容，B的内容与远程不一致
 }
