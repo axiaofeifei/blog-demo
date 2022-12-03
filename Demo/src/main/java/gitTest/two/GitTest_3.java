@@ -14,4 +14,5 @@ package gitTest.two;
 * 2.直接以远程的为准
 * */
 public class GitTest_3 {
+//   这是远程修改的代码   本地没有修改  pull时会怎样
 }
