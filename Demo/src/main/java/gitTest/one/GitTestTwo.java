@@ -7,4 +7,6 @@ package gitTest.one;
  */
 public class GitTestTwo {
 //本地有内容，远程有内容。内容为远程。
+//   远程内容
+//   远程内容
 }
