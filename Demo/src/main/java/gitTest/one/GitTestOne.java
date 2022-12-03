@@ -19,5 +19,6 @@ package gitTest.one;
     * 两个文件本地会怎样，远程会怎样
     * */
 public class GitTestOne {
-
+    //A内容做了修改，需要提交到远程
+    //B的内容在远程已经被修改
 }
