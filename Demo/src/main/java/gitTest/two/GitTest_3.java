@@ -16,4 +16,5 @@ package gitTest.two;
 public class GitTest_3 {
 //   这是远程修改的代码   本地没有修改  pull时会怎样
 //    pull时会直接把远程的代码拉下来，无视本地
+//    本地   和    远程的内容一致。         但是远程的有很多空格,pull时会怎样。
 }
