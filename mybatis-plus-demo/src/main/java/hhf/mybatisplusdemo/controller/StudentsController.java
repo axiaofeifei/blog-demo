@@ -5,11 +5,14 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import hhf.mybatisplusdemo.entity.Students;
 import hhf.mybatisplusdemo.service.StudentsService;
+import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 import javax.websocket.server.PathParam;
 import java.rmi.server.ExportException;
 import java.sql.SQLException;
@@ -30,7 +33,11 @@ public class StudentsController {
 
 
     @GetMapping("/hello")
-    public String hello(){
+    public String hello(HttpServletRequest request){
+        //String remoteUser = request.getRemoteUser();
+        //
+        //HttpSession session = request.getSession();
+        //User attribute = (User)session.getAttribute("USER-SESSION");
         return "hello";
     }
 
