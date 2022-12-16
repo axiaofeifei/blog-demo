@@ -9,16 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka" />
         <module name="mybatis-plus-demo" />
-        <module name="mybatis-plus-demo (1)" />
         <module name="Demo" />
+        <module name="mybatis-test" />
+        <module name="springboot-shiro" />
         <module name="springboot-redis" />
         <module name="springboot-swagger" />
-        <module name="mybatis-test" />
+        <module name="utils" />
         <module name="generator-test" />
         <module name="spring-security" />
         <module name="bootk8s-demo" />
         <module name="excel-test" />
-        <module name="springboot-shiro" />
+        <module name="unit-demo" />
+        <module name="netty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -27,13 +29,15 @@
       <module name="excel-test" target="1.8" />
       <module name="generator-test" target="1.8" />
       <module name="mybatis-plus-demo" target="1.8" />
-      <module name="mybatis-plus-demo (1)" target="1.8" />
       <module name="mybatis-test" target="1.8" />
+      <module name="netty" target="1.8" />
       <module name="spring-security" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-shiro" target="1.8" />
       <module name="springboot-swagger" target="1.8" />
+      <module name="unit-demo" target="1.8" />
+      <module name="utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -42,12 +46,14 @@
       <module name="excel-test" options="-parameters" />
       <module name="generator-test" options="-parameters" />
       <module name="mybatis-plus-demo" options="-parameters" />
-      <module name="mybatis-plus-demo (1)" options="-parameters" />
+      <module name="netty" options="-parameters" />
       <module name="spring-security" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
       <module name="springboot-redis" options="-parameters" />
       <module name="springboot-shiro" options="-parameters" />
       <module name="springboot-swagger" options="-parameters" />
+      <module name="unit-demo" options="-parameters" />
+      <module name="utils" options="-parameters" />
     </option>
   </component>
 </project>
