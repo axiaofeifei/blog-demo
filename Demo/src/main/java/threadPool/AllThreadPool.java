@@ -1,6 +1,6 @@
 package threadPool;
 
-import org.apache.dubbo.common.utils.NamedThreadFactory;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
@@ -27,7 +27,7 @@ public class AllThreadPool {
                 120L,
                 TimeUnit.SECONDS,
                 new ArrayBlockingQueue<>(50000),
-                new NamedThreadFactory("Etian-Web_Pool"),
+                //new NamedThreadFactory("Etian-Web_Pool"),
                 new RejectedTaskPolicyWithReport("Etian-Web-Pool"));
         return executor;
     }
