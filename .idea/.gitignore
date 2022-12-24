@@ -8,9 +8,11 @@
 /dataSources.local.xml
 # Zeppelin ignored files
 /ZeppelinRemoteNotebooks/
-/.idea/blog-demo.iml
-/.idea/compiler.xml
-/.idea/encodings.xml
-/.idea/misc.xml
-/.idea/modules.xml
+/blog-demo.iml
+/compiler.xml
+/encodings.xml
+/misc.xml
+/modules.xml
 /Demo/Demo.iml
+/.idea/
+/
