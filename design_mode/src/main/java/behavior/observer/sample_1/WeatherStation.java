@@ -18,6 +18,11 @@ import org.junit.Test;
 //    当weather的气温,湿度,预测一更新时,调用主题的通知方法-逐个通知观察者
 //    主题的通知方法调用观察者的更新方法
 //    观察者的更新方法更新后调用 显示方法
+
+
+//    这里统一都是subject推送信息到观察者,
+//    每次subject增加内容都需要推送,推送了很多观察者不需要的内容
+//    我们可以设计让观察者拉去自己需要的数据
 public class WeatherStation {
     @Test
     public void test(){
