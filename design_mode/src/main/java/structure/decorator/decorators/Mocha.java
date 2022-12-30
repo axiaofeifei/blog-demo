@@ -11,6 +11,8 @@ public class Mocha extends CondimentDecorator {
 
     Beverage beverage;
 
+    Double price = 0.3;
+
     public Mocha(Beverage beverage) {
         this.beverage = beverage;
     }
@@ -21,6 +23,7 @@ public class Mocha extends CondimentDecorator {
 
     @Override
     public double cost() {
-        return beverage.cost()+0.3;
+
+        return beverage.cost()+price;
     }
 }

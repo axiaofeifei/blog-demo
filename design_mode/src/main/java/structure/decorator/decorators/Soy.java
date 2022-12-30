@@ -10,6 +10,8 @@ import structure.decorator.coffee.Beverage;
 public class Soy extends CondimentDecorator {
     Beverage beverage;
 
+    Double price = 0.34;
+
     public Soy(Beverage beverage) {
         this.beverage = beverage;
     }
@@ -20,6 +22,6 @@ public class Soy extends CondimentDecorator {
 
     @Override
     public double cost() {
-        return beverage.cost()+0.3;
+        return beverage.cost()+price;
     }
 }

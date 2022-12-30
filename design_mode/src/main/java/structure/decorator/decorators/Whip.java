@@ -10,6 +10,9 @@ import structure.decorator.coffee.Beverage;
 public class Whip extends CondimentDecorator{
     Beverage beverage;
 
+    Double price = 0.44;
+
+
     public Whip(Beverage beverage) {
         this.beverage = beverage;
     }
@@ -20,6 +23,6 @@ public class Whip extends CondimentDecorator{
 
     @Override
     public double cost() {
-        return beverage.cost()+0.6;
+        return beverage.cost()+price;
     }
 }
