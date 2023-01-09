@@ -21,6 +21,17 @@ public class GumballMachine {
     State state = soldOutState;
     int count = 0;
 
+    String location;
+
+    public GumballMachine(int count, String location) {
+        this.count = count;
+        this.location = location;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
     public GumballMachine(int numberGumballs){
         soldOutState = new SoldOutState(this);
         noQuarterState = new NoQuarterState(this);
@@ -35,14 +46,15 @@ public class GumballMachine {
 
 
 
+    //投钱
     public void insertQuarter(){
         state.insertQuarter();
     }
-
+    //取回钱
     public void ejectQuarter(){
         state.ejectQuarter();
     }
-
+    //拿糖果
     public void turnCrank(){
         state.turnCrank();
         state.dispense();
