@@ -1,5 +1,7 @@
 package status.sample_1;
 
+import status.sample_2.GumballMachine;
+
 /**
  * @Author hehongfei
  * @Description
