@@ -4,6 +4,8 @@ import composite.duck.DuckCall;
 import composite.duck.MallardDuck;
 import composite.duck.RedheadDuck;
 import composite.duck.RubberDuck;
+import composite.goose.Goose;
+import composite.goose.GooseAdapter;
 import composite.interface_1.Quackable;
 
 /**
@@ -22,5 +24,19 @@ public class DuckSimulator {
         Quackable redheadDuck = new RedheadDuck();
         Quackable duckCall = new DuckCall();
         Quackable rubberDuck = new RubberDuck();
+        GooseAdapter gooseAdapter = new GooseAdapter(new Goose());
+
+        System.out.println("\nDuck Simulate:with Goose Adapter...");
+
+        simulate(mallardDuck);
+        simulate(redheadDuck);
+        simulate(duckCall);
+        simulate(rubberDuck);
+        simulate(gooseAdapter);
     }
+
+    void simulate(Quackable duck){
+        duck.quack();
+    }
+
 }

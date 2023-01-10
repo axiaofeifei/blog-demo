@@ -1,4 +1,4 @@
-package composite;
+package composite.goose;
 
 import composite.goose.Goose;
 import composite.interface_1.Quackable;
