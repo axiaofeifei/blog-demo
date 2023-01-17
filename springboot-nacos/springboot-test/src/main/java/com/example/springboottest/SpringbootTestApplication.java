@@ -1,13 +1,13 @@
-package com.example.satoken;
+package com.example.springboottest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SaTokenApplication {
+public class SpringbootTestApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SaTokenApplication.class, args);
+        SpringApplication.run(SpringbootTestApplication.class, args);
     }
 
 }
