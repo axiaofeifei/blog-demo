@@ -125,6 +125,7 @@ public class RedisTestController {
         return result;
     }
 
+
     /**
      * redis存入ZSet类型数据的测试
      * @return
@@ -134,13 +135,13 @@ public class RedisTestController {
     //    String key = "testZSet";
     //    redisTemplate.opsForZSet().add(key,"zset1",2);
     //
-       //vredisTemplate.opsForZSet().
-       // ZSetOperations.TypedTuple typedTupleMIn = redisTemplate.opsForZSet().popMin(key);
-       //
-       // System.out.println(typedTupleMax);
-       // System.out.println(typedTupleMIn);
-       // String str = typedTupleMax.toString();
-       // String str2 = typedTupleMIn.toString();
+    //    redisTemplate.opsForZSet().popMax(key);
+    //    redisTemplate.opsForZSet().popMin(key);
+    //
+    //    System.out.println(typedTupleMax);
+    //    System.out.println(typedTupleMIn);
+    //    String str = typedTupleMax.toString();
+    //    String str2 = typedTupleMIn.toString();
     //    return str+str2;
     //
     //}
