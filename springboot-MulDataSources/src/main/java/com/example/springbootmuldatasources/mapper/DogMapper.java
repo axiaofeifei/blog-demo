@@ -2,6 +2,7 @@ package com.example.springbootmuldatasources.mapper;
 
 import com.example.springbootmuldatasources.entity.Dog;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Select;
 
 /**
  * @Author hehongfei
@@ -10,6 +11,7 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface DogMapper {
+    //@Select("select * from dog where name = #{name}")
     Dog selectByName(String name);
 
 }
