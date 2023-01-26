@@ -17,7 +17,8 @@
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud-alibaba.version>2.2.8.RELEASE</spring-cloud-alibaba.version>
-
+        <satoken.version>1.30.0</satoken.version>
+        <mysql-connector-java.version>8.0.18</mysql-connector-java.version>
     </properties>
 
     <dependencies>
@@ -41,7 +42,8 @@
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-spring-boot-starter</artifactId>
-            <version>1.30.0</version>
+
+            <version>${satoken.version}</version>
         </dependency>
         <dependency>
             <groupId>cn.hutool</groupId>
@@ -64,7 +66,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.18</version>
+            <version>${mysql-connector-java.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -77,17 +79,11 @@
             <artifactId>pagehelper</artifactId>
             <version>4.1.0</version>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.2.6</version>
-            <scope>compile</scope>
-        </dependency>
         <!-- sa-token整合redis (使用jackson序列化方式) -->
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-dao-redis-jackson</artifactId>
-            <version>1.30.0</version>
+            <version>${satoken.version}</version>
         </dependency>
 
 
