@@ -69,11 +69,27 @@ public class UserController {
      * 注解式鉴权：只要具有其中一个权限即可通过校验
      * @return
      */
+    //SaMode.AND, 标注一组权限，会话必须全部具有才可通过校验
+    //SaMode.OR, 标注一组权限，会话只要具有其一即可通过校验
     @RequestMapping("atJurOr")
     @SaCheckPermission(value = {"user-add", "user-all", "user-delete"}, mode = SaMode.OR)
     public SaResult atJurOr() {
         return SaResult.ok("用户信息");
     }
+
+
+    // 注解式鉴权：只要具有其中一个权限即可通过校验
+    @RequestMapping("userAdd")
+    @SaCheckPermission(value = "user-add", orRole = "admin")
+    public SaResult userAdd() {
+        return SaResult.ok("用户信息");
+    }
+    //orRole 字段代表权限认证未通过时的次要选择，两者只要其一认证成功即可通过校验，其有三种写法：
+    //写法一：orRole = "admin"，代表需要拥有角色 admin 。
+    //写法二：orRole = {"admin", "manager", "staff"}，代表具有三个角色其一即可。
+    //写法三：orRole = {"admin, manager, staff"}，代表必须同时具有三个角色
+
+
 
 
 }
