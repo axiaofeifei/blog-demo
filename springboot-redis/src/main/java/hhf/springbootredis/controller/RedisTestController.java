@@ -130,21 +130,21 @@ public class RedisTestController {
      * redis存入ZSet类型数据的测试
      * @return
      */
-    @GetMapping("/testZset")
-    public String RedisTestZSet(){
-        String key = "testZSet";
-        redisTemplate.opsForZSet().add(key,"zset1",2);
-
-        ZSetOperations.TypedTuple typedTupleMax = redisTemplate.opsForZSet().popMax(key);
-        ZSetOperations.TypedTuple typedTupleMIn = redisTemplate.opsForZSet().popMin(key);
-
-        System.out.println(typedTupleMax);
-        System.out.println(typedTupleMIn);
-        String str = typedTupleMax.toString();
-        String str2 = typedTupleMIn.toString();
-        return str+str2;
-
-    }
+    //@GetMapping("/testZset")
+    //public String RedisTestZSet(){
+    //    String key = "testZSet";
+    //    redisTemplate.opsForZSet().add(key,"zset1",2);
+    //
+       //vredisTemplate.opsForZSet().
+       // ZSetOperations.TypedTuple typedTupleMIn = redisTemplate.opsForZSet().popMin(key);
+       //
+       // System.out.println(typedTupleMax);
+       // System.out.println(typedTupleMIn);
+       // String str = typedTupleMax.toString();
+       // String str2 = typedTupleMIn.toString();
+    //    return str+str2;
+    //
+    //}
 
 
 

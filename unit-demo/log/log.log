@@ -422,7 +422,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2022-06-02 10:36:39.399  INFO 58928 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2022-06-02 10:36:39.400  INFO 58928 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
 2022-06-02 10:36:39.426  INFO 58928 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 3.396 seconds (JVM running for 4.508)
-2022-06-02 10:36:39.738  INFO 58928 --- [main] hhf.mybatisplusdemo.BaseTest             : test mybatis-plus
+2022-06-02 10:36:39.738  INFO 58928 --- [main] hhf.mybatisplusdemo.BaseTest             : test mybatis-mp_addmethod
 2022-06-02 10:39:58.966  INFO 3504 --- [main] h.m.controller.HelloControllerTest       : Starting HelloControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 3504 (started by Lenovo in E:\codes\hhf\unit-demo)
 2022-06-02 10:39:58.967 DEBUG 3504 --- [main] h.m.controller.HelloControllerTest       : Running with Spring Boot v2.7.0, Spring v5.3.20
 2022-06-02 10:39:58.968  INFO 3504 --- [main] h.m.controller.HelloControllerTest       : No active profile set, falling back to 1 default profile: "default"
@@ -532,7 +532,7 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No q
 2022-06-02 11:01:08.131  INFO 65768 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
 2022-06-02 11:01:08.133  INFO 65768 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
 2022-06-02 11:01:08.169  INFO 65768 --- [main] h.m.controller.HelloControllerTest       : Started HelloControllerTest in 4.533 seconds (JVM running for 5.339)
-2022-06-02 11:01:08.650  INFO 65768 --- [main] hhf.mybatisplusdemo.BaseTest             : test mybatis-plus
+2022-06-02 11:01:08.650  INFO 65768 --- [main] hhf.mybatisplusdemo.BaseTest             : test mybatis-mp_addmethod
 2022-06-02 11:01:18.101  INFO 34896 --- [main] h.m.controller.StudentControllerTest     : Starting StudentControllerTest using Java 1.8.0_152 on LAPTOP-1IRM7I70 with PID 34896 (started by Lenovo in E:\codes\hhf\unit-demo)
 2022-06-02 11:01:18.103 DEBUG 34896 --- [main] h.m.controller.StudentControllerTest     : Running with Spring Boot v2.7.0, Spring v5.3.20
 2022-06-02 11:01:18.104  INFO 34896 --- [main] h.m.controller.StudentControllerTest     : No active profile set, falling back to 1 default profile: "default"

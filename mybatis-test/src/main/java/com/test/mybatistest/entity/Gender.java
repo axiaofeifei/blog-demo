@@ -9,5 +9,4 @@ package com.test.mybatistest.entity;
 
 public enum Gender {
     MAN,WOMAN
-
 }
